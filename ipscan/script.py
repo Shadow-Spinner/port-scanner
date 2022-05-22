@@ -5,7 +5,7 @@ import nmap
 banner=open("banner.txt","r")
 print(banner.read())
 print("<<<<....................................................................................>>>>")
-host=(input("enter the IP address => "))
+host=(input("enter the url/IP address => "))
 choice=int(input("enter 1 for finding ip \n      2 for ayc scan \n      3 for udp scan\n=> "))
 if choice==1:
     try:
